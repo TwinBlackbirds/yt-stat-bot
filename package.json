@@ -1,0 +1,16 @@
+{
+  "name": "ytstatistics",
+  "version": "1.0.0",
+  "description": "This bot is based off of a YouTube video I saw, something along the lines of 'how long does it take for YouTube to recommend alt-right content on a new account'.",
+  "main": "js/Puppet.js",
+  "scripts": {
+    "compile": "tsc && echo 'tsc compiled' && node ."
+  },
+  "author": "TwinBlackBirds",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
